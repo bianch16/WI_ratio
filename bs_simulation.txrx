@@ -1,0 +1,506 @@
+begin_<grid> base_statation
+project_id 1
+active
+vertical_line no
+pattern_shown no
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+side1 0.35000
+side2 0.35000
+spacing 0.05000
+nVertices 1
+-25.000000000000000 332.000000000000000 45.000000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration yes
+is_transmitter no
+is_receiver yes
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform 0
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<grid>
+begin_<points> trans-1,4
+project_id 2
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 1
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-1,5
+project_id 3
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 2
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-1,6
+project_id 4
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 3
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-1,7
+project_id 5
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 4
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-1,8
+project_id 6
+active
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 5
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-1,9
+project_id 7
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 6
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-2.0
+project_id 8
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 7
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-3.2
+project_id 9
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 8
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-3.3
+project_id 10
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 9
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-3.4
+project_id 11
+inactive
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 10
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>
+begin_<points> trans-3.5
+project_id 12
+active
+vertical_line no
+pattern_shown no
+cube_size 2.50000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude -77.072998046900011
+latitude 38.894660949699997
+visible no
+terrain
+end_<reference>
+nVertices 1
+-19.050000000000001 236.810000000000002 0.560000000000000
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform 0
+rotation_x 0.00000
+rotation_y 0.00000
+rotation_z 0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<points>

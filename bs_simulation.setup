@@ -1,0 +1,283 @@
+Format type:keyword version: 1.1.0
+begin_<project> bs_simulation
+project_id 1108
+begin_<globals> 
+longitude -77.0729980469
+latitude 38.8946609497
+end_<globals>
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 1
+begin_<caches> 
+begin_<cache> 
+type X3DGeometry
+filename ./bs_simulation.X3DGeometry.cache
+valid true
+end_<cache>
+end_<caches>
+begin_<studyarea> x3d
+StudyAreaNumber 0
+active
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type disabled
+max_threads 0
+num_partitions 2
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled no
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 4
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+plane_wave_phase_reference automatic
+121.18 103.217 50.475
+begin_<OutputRequests> 
+CEF yes
+ComplexImpulseResponse yes
+DelaySpread yes
+DirectionOfArrival yes
+DirectionOfDeparture yes
+ElectroMagneticFields yes
+FSPathloss yes
+FSPower yes
+MeanDirectionOfArrival yes
+MeanDirectionOfDeparture yes
+MeanTimeOfArrival yes
+Pathloss yes
+Paths yes
+Power yes
+TimeOfArrival yes
+XPathloss yes
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude -77.0729980469
+latitude 38.8946609497
+visible no
+terrain
+end_<reference>
+zmin -0.939999997615814
+zmax 101.199996948242
+nVertices 4
+-285.255340576172 -310.63623046875 0
+527.615783691406 -310.63623046875 0
+527.615783691406 517.07080078125 0
+-285.255340576172 517.07080078125 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated no
+monte_carlo_active no
+monte_carlo_mean yes
+monte_carlo_min no
+monte_carlo_max no
+monte_carlo_median no
+monte_carlo_sdev no
+monte_carlo_iterations 10
+monte_carlo_seed 1
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<feature> 
+feature 0
+city
+active
+filename ./rosslyn_va(2).city
+end_<feature>
+begin_<feature> 
+feature 1
+terrain
+active
+filename ./Rosslyn_Flat_Terrain(2).ter
+end_<feature>
+begin_<txrx_sets> 
+filename ./bs_simulation.txrx
+FirstAvailableTxRxNumber 13
+end_<txrx_sets>
+FirstAvailableCommSystemNumber 0
+begin_<antenna> Half-wave dipole
+antenna 0
+type HalfWaveDipole
+waveform 0
+polarization vertical
+power_threshold -250
+cable_loss 0
+VSWR 1
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+end_<antenna>
+begin_<Waveform> Sinusoid3.5
+Sinusoid
+waveform 0
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 3500000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid1.4
+Sinusoid
+waveform 1
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 1400000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid1.5
+Sinusoid
+waveform 2
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 1500000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid1.6
+Sinusoid
+waveform 3
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 1600000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid1.7
+Sinusoid
+waveform 4
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 1700000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid1.8
+Sinusoid
+waveform 5
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 1800000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid1.9
+Sinusoid
+waveform 6
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 1900000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid2.0
+Sinusoid
+waveform 7
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 2000000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid3.2
+Sinusoid
+waveform 8
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 3200000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid3.3
+Sinusoid
+waveform 9
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 3300000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+begin_<Waveform> Sinusoid3.4
+Sinusoid
+waveform 10
+frequencyDistribution Uniform 500.000 1500.000 inactive nosampling 10
+CarrierFrequency 3400000000.000
+phase 0.000
+bandwidth 1000000.000
+end_<Waveform>
+FirstAvailableFilterNumber 0
+begin_<requests> 
+cartesian
+sealevel
+local
+CalculationMode New
+MaxRenderedPaths 10
+FieldAnimationIncrement 10
+FieldAnimationTimeAveraged yes
+CEF yes
+ComplexImpulseResponse yes
+DelaySpread yes
+FieldAnimation yes
+DirectionOfArrival yes
+DirectionOfDeparture yes
+ElectricFieldVsFrequency yes
+ElectricFieldVsTime yes
+EMFields yes
+FSPathloss yes
+FSPower yes
+InputData yes
+MeanDirectionOfArrival yes
+MeanDirectionOfDeparture yes
+MeanTimeOfArrival yes
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile yes
+TimeOfArrival yes
+XPathloss yes
+TerrainProfile yes
+end_<requests>
+begin_<Scales> 
+begin_<MpeThreshhold> 
+AutoScaling 0
+DrawValues 0
+AutoUpdating 0
+Discrete 1
+UseGlobalOpacity 1
+ManualValuesSet 1
+ClampedHigh 1
+ClampedLow 1
+Alpha 1.000e+00
+ManualMin 0.000e+00
+ManualMax 2.000e+02
+TextColor 1.000 1.000 1.000
+Colors 4
+0.300 0.000 0.500
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.000 0.000
+PartitionValues 
+3
+0.001 50.000 100.000 
+end_<MpeThreshhold>
+end_<Scales>
+end_<project>

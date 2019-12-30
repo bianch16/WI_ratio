@@ -1,0 +1,37 @@
+
+
+wibatch version 3.3.3.0 - r62232
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2019.12.29 05:32:35.781 Hostname: DESKTOP-7GT42VD
+2019.12.29 05:32:35.781 Set working directory: C:/Users/xyzhang/Desktop/chenghong/base_station
+2019.12.29 05:32:35.794 Sun Dec 29 05:32:35 2019
+
+
+2019.12.29 05:32:36.157 ============ GEOMETRY ============
+
+2019.12.29 05:32:36.157 Processing geometry (4 CPU threads)
+2019.12.29 05:32:36.158 Created cache file: ./bs_simulation.X3DGeometry.cache
+2019.12.29 05:32:36.164   Lowering structures to terrain
+2019.12.29 05:32:36.164     Done lowering structures to terrain
+2019.12.29 05:32:36.170   Creating candidate facets for edge creation
+2019.12.29 05:32:36.193     Done creating candidate facets for edge creation
+2019.12.29 05:32:36.194   Creating scene edges
+2019.12.29 05:32:36.196     Done creating scene edges
+2019.12.29 05:32:36.197   Finishing scene edges
+2019.12.29 05:32:36.199     Done finishing scene edges
+2019.12.29 05:32:36.203 Writing 1002 triangles to cache file
+2019.12.29 05:32:36.203 Writing edgeset (757 edges) to cache
+2019.12.29 05:32:36.205 Writing property list (1 properties) to cache
+2019.12.29 05:32:36.205   Property: 0, name=po_object_type, 1002 entries
+2019.12.29 05:32:36.205 Cache saved
+2019.12.29 05:32:36.205 Successfully generated geometry cache; exiting.
+
+2019.12.29 05:32:36.213 Sun Dec 29 05:32:36 2019
+
+
+2019.12.29 05:32:36.213 Geometry Processing Time: : 00:00:00.055
+
+2019.12.29 05:32:36.213 Total Runtime: : 00:00:00.418

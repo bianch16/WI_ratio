@@ -1,0 +1,687 @@
+
+
+wibatch version 3.3.3.0 - r62232
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2019.12.29 22:31:50.868 Hostname: DESKTOP-7GT42VD
+2019.12.29 22:31:50.868 Set working directory: C:/Users/xyzhang/Desktop/chenghong/base_station
+2019.12.29 22:31:50.885 Sun Dec 29 22:31:50 2019
+
+2019.12.29 22:31:50.929 OptiX Runtime version = 40100
+2019.12.29 22:31:50.929 CUDA Runtime version = 8.0
+2019.12.29 22:31:50.929 CUDA Driver version  = 9.2
+2019.12.29 22:31:50.929 GPU device #0: [GeForce GTX 1080 Ti], 6.1 capability, 28 total cores, 1024 threads per block
+2019.12.29 22:31:50.929 GPU device #1: [GeForce GTX 1080 Ti], 6.1 capability, 28 total cores, 1024 threads per block
+
+2019.12.29 22:31:50.983 Initializing X3D model
+
+2019.12.29 22:31:50.983 ============ GEOMETRY ============
+
+2019.12.29 22:31:50.983 Processing geometry (4 CPU threads)
+2019.12.29 22:31:50.983 Reading cache file: ./bs_simulation.X3DGeometry.cache
+2019.12.29 22:31:50.983 Read 1002 facets from cache
+2019.12.29 22:31:50.986   Lowering structures to terrain
+2019.12.29 22:31:50.986     Done lowering structures to terrain
+2019.12.29 22:31:50.990 Read 757 edges from cache
+2019.12.29 22:31:50.990 Read 1 properties from cache
+
+2019.12.29 22:31:50.990  ============ TRANSMITTER/RECEIVER SETS ============
+
+2019.12.29 22:31:50.990 Generating transmitter and receiver sets
+2019.12.29 22:31:51.013 TxRx set: trans-1,4  Set number: 2  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.013   Transmitter:
+2019.12.29 22:31:51.013     Input power (W): 0
+2019.12.29 22:31:51.014     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 1400  Phase (degrees): 0
+2019.12.29 22:31:51.014     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.014 TxRx set: trans-1,5  Set number: 3  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.014   Transmitter:
+2019.12.29 22:31:51.014     Input power (W): 0
+2019.12.29 22:31:51.014     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 1500  Phase (degrees): 0
+2019.12.29 22:31:51.014     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.014 TxRx set: trans-1,6  Set number: 4  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.014   Transmitter:
+2019.12.29 22:31:51.014     Input power (W): 0
+2019.12.29 22:31:51.014     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 1600  Phase (degrees): 0
+2019.12.29 22:31:51.014     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.014 TxRx set: trans-1,7  Set number: 5  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.014   Transmitter:
+2019.12.29 22:31:51.014     Input power (W): 0
+2019.12.29 22:31:51.014     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 1700  Phase (degrees): 0
+2019.12.29 22:31:51.014     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.015 TxRx set: trans-1,8  Set number: 6  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.015   Transmitter:
+2019.12.29 22:31:51.015     Input power (W): 0
+2019.12.29 22:31:51.015     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 1800  Phase (degrees): 0
+2019.12.29 22:31:51.015     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.015 TxRx set: trans-1,9  Set number: 7  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.015   Transmitter:
+2019.12.29 22:31:51.015     Input power (W): 0
+2019.12.29 22:31:51.015     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 1900  Phase (degrees): 0
+2019.12.29 22:31:51.015     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.015 TxRx set: trans-2.0  Set number: 8  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.015   Transmitter:
+2019.12.29 22:31:51.015     Input power (W): 0
+2019.12.29 22:31:51.015     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2000  Phase (degrees): 0
+2019.12.29 22:31:51.015     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.016 TxRx set: trans-3.2  Set number: 9  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.016   Transmitter:
+2019.12.29 22:31:51.016     Input power (W): 0
+2019.12.29 22:31:51.016     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 3200  Phase (degrees): 0
+2019.12.29 22:31:51.016     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.016 TxRx set: trans-3.3  Set number: 10  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.016   Transmitter:
+2019.12.29 22:31:51.016     Input power (W): 0
+2019.12.29 22:31:51.016     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 3300  Phase (degrees): 0
+2019.12.29 22:31:51.016     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.016 TxRx set: trans-3.4  Set number: 11  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.016   Transmitter:
+2019.12.29 22:31:51.016     Input power (W): 0
+2019.12.29 22:31:51.016     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 3400  Phase (degrees): 0
+2019.12.29 22:31:51.016     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.016 TxRx set: trans-3.5  Set number: 12  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.016   Transmitter:
+2019.12.29 22:31:51.016     Input power (W): 0
+2019.12.29 22:31:51.016     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 3500  Phase (degrees): 0
+2019.12.29 22:31:51.016     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2019.12.29 22:31:51.017 TxRx set: base_statation  Set number: 1  Type: GridSet  Number of points: 64  APG Accelerated: no  Fit to terrain: yes
+2019.12.29 22:31:51.017   Receiver:
+2019.12.29 22:31:51.017     Collection radius (m): auto
+2019.12.29 22:31:51.017     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 3500  Phase (degrees): 0
+2019.12.29 22:31:51.017     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+2019.12.29 22:31:51.017   Length (x) [m]: 0.35  Length (y) [m]: 0.35  Planar rotation (degrees): 0  Spacing (m): 0.05
+
+2019.12.29 22:31:51.017   Auto Collection Radius = 5.08126m
+
+2019.12.29 22:31:51.017 ============ SCENE ============
+
+2019.12.29 22:31:51.017 Scene information: 
+                          Number of original facets: 1002
+                          Number of spheres: 64
+
+                          Maximum Scene Distance: 2329.08
+                          Bounding box: 
+                            Minimum: (-285.005, -310.386, 0)
+                            Maximum: (527.366, 516.821, 100.95)
+
+                          Number of superedges: 757
+
+2019.12.29 22:31:51.017 ============ MATERIALS ============
+
+2019.12.29 22:31:51.017 Material number: 2  Type: DielectricHalfspace  Thickness (m): 0
+2019.12.29 22:31:51.017   Layer 0: 
+2019.12.29 22:31:51.017     Relative permittivity: 6  Conductivity (S/m): 0.01  Thickness (m): 0  Roughness (m): 0
+
+2019.12.29 22:31:51.017 Material number: 3  Type: LayeredDielectric  Thickness (m): 0
+2019.12.29 22:31:51.017   Layer 0: 
+2019.12.29 22:31:51.017     Relative permittivity: 4.44  Conductivity (S/m): 0.001  Thickness (m): 0.125  Roughness (m): 0
+
+2019.12.29 22:31:51.017 Material number: 4  Type: LayeredDielectric  Thickness (m): 0
+2019.12.29 22:31:51.017   Layer 0: 
+2019.12.29 22:31:51.017     Relative permittivity: 2.4  Conductivity (S/m): 0  Thickness (m): 0.003  Roughness (m): 0
+
+2019.12.29 22:31:51.017 Material number: 0  Type: DielectricHalfspace  Thickness (m): 0
+2019.12.29 22:31:51.017   Layer 0: 
+2019.12.29 22:31:51.017     Relative permittivity: 25  Conductivity (S/m): 0.02  Thickness (m): 0  Roughness (m): 0
+
+2019.12.29 22:31:51.017 ============ ATMOSPHERE ============
+
+2019.12.29 22:31:51.017 Pressure = 1013.25
+2019.12.29 22:31:51.017 Temperature = 22.2
+2019.12.29 22:31:51.017 Humidity = 50
+
+2019.12.29 22:31:51.442 ============ MODEL ============
+
+2019.12.29 22:31:51.482 Starting X3D ray tracing for Tx set 2, point 1 (point 1 of 11 total)
+2019.12.29 22:31:51.482   Diffraction cone ray angle = 0.25
+2019.12.29 22:31:51.482   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:31:51.579   Ray tracing ranges: 
+2019.12.29 22:31:51.579     Minimum phi: 0
+2019.12.29 22:31:51.579     Maximum phi: 360
+2019.12.29 22:31:51.579     Minimum theta: 0
+2019.12.29 22:31:51.579     Maximum theta: 180
+2019.12.29 22:31:51.579   Model parameters: 
+2019.12.29 22:31:51.579     Reflections:         6
+2019.12.29 22:31:51.579     Transmissions:       0
+2019.12.29 22:31:51.579     Diffractions:        1
+2019.12.29 22:31:51.579     Ray spacing (degrees): 0.25
+
+2019.12.29 22:31:51.580   Advanced model parameters:
+2019.12.29 22:31:51.580     Maximum reflections before first diffraction: 3
+2019.12.29 22:31:51.580     Maximum reflections between two diffractions: 0
+2019.12.29 22:31:51.580     Maximum reflections after last diffraction: 3
+2019.12.29 22:31:51.580   Detected 2 GPU devices.
+2019.12.29 22:31:51.587   Licensed 1 GPU devices.
+2019.12.29 22:31:51.588   Running on 1 GPU devices.
+2019.12.29 22:31:51.588     Device ID's: [ 0 ]
+2019.12.29 22:31:51.841   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:31:53.224   Beginning next round of queued diffractions
+
+2019.12.29 22:31:59.954   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:32:02.934   GPU ray tracing (44718/65536 active): 10% complete
+2019.12.29 22:32:04.144   Total Number of Rays shot: 51707904
+2019.12.29 22:32:04.144   Total Number of active rays shot: 41368409
+2019.12.29 22:32:04.144   Total Initial Rays shot: 663228
+2019.12.29 22:32:04.144   34568 unique paths found.
+
+2019.12.29 22:32:04.144   Calculating E-fields and generating output
+
+2019.12.29 22:32:04.148     ============ ATMOSPHERE ============
+
+2019.12.29 22:32:04.148     Frequency = 1.4e+09
+2019.12.29 22:32:04.148     Attenuation (db/km) = 0.00583477
+2019.12.29 22:32:05.232      Paths    Channels  Database
+2019.12.29 22:32:05.233      100.00%   100.00%    43.75%
+2019.12.29 22:32:05.290      100.00%   100.00%   100.00%
+2019.12.29 22:32:05.434     Original interaction chains:         34568
+2019.12.29 22:32:05.434     Interaction chains eliminated:       21049
+2019.12.29 22:32:05.434     Physical paths generated:            13519
+2019.12.29 22:32:05.434     High power paths retained:           13519
+2019.12.29 22:32:05.434     Low power paths eliminated:              0
+
+
+2019.12.29 22:32:05.510 Starting X3D ray tracing for Tx set 3, point 1 (point 2 of 11 total)
+2019.12.29 22:32:05.516   Diffraction cone ray angle = 0.25
+2019.12.29 22:32:05.516   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:32:05.527   Ray tracing ranges: 
+2019.12.29 22:32:05.527     Minimum phi: 0
+2019.12.29 22:32:05.527     Maximum phi: 360
+2019.12.29 22:32:05.527     Minimum theta: 0
+2019.12.29 22:32:05.527     Maximum theta: 180
+2019.12.29 22:32:05.527   Model parameters: 
+2019.12.29 22:32:05.527     Reflections:         6
+2019.12.29 22:32:05.527     Transmissions:       0
+2019.12.29 22:32:05.527     Diffractions:        1
+2019.12.29 22:32:05.527     Ray spacing (degrees): 0.25
+
+2019.12.29 22:32:05.528   Advanced model parameters:
+2019.12.29 22:32:05.528     Maximum reflections before first diffraction: 3
+2019.12.29 22:32:05.528     Maximum reflections between two diffractions: 0
+2019.12.29 22:32:05.528     Maximum reflections after last diffraction: 3
+2019.12.29 22:32:05.528   Detected 2 GPU devices.
+2019.12.29 22:32:05.534   Licensed 1 GPU devices.
+2019.12.29 22:32:05.534   Running on 1 GPU devices.
+2019.12.29 22:32:05.534     Device ID's: [ 0 ]
+2019.12.29 22:32:05.733   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:32:07.050   Beginning next round of queued diffractions
+
+2019.12.29 22:32:13.965   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:32:16.985   GPU ray tracing (31595/65536 active): 11% complete
+2019.12.29 22:32:18.132   Total Number of Rays shot: 51314688
+2019.12.29 22:32:18.132   Total Number of active rays shot: 41368409
+2019.12.29 22:32:18.132   Total Initial Rays shot: 663228
+2019.12.29 22:32:18.132   34568 unique paths found.
+
+2019.12.29 22:32:18.132   Calculating E-fields and generating output
+
+2019.12.29 22:32:18.136     ============ ATMOSPHERE ============
+
+2019.12.29 22:32:18.136     Frequency = 1.5e+09
+2019.12.29 22:32:18.136     Attenuation (db/km) = 0.00596654
+2019.12.29 22:32:19.189      Paths    Channels  Database
+2019.12.29 22:32:19.189      100.00%   100.00%    25.00%
+2019.12.29 22:32:19.349      100.00%   100.00%   100.00%
+2019.12.29 22:32:19.641     Original interaction chains:         34568
+2019.12.29 22:32:19.641     Interaction chains eliminated:       21049
+2019.12.29 22:32:19.641     Physical paths generated:            13519
+2019.12.29 22:32:19.641     High power paths retained:           13519
+2019.12.29 22:32:19.641     Low power paths eliminated:              0
+
+
+2019.12.29 22:32:19.707 Starting X3D ray tracing for Tx set 4, point 1 (point 3 of 11 total)
+2019.12.29 22:32:19.712   Diffraction cone ray angle = 0.25
+2019.12.29 22:32:19.712   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:32:19.724   Ray tracing ranges: 
+2019.12.29 22:32:19.724     Minimum phi: 0
+2019.12.29 22:32:19.724     Maximum phi: 360
+2019.12.29 22:32:19.724     Minimum theta: 0
+2019.12.29 22:32:19.724     Maximum theta: 180
+2019.12.29 22:32:19.724   Model parameters: 
+2019.12.29 22:32:19.724     Reflections:         6
+2019.12.29 22:32:19.724     Transmissions:       0
+2019.12.29 22:32:19.724     Diffractions:        1
+2019.12.29 22:32:19.724     Ray spacing (degrees): 0.25
+
+2019.12.29 22:32:19.725   Advanced model parameters:
+2019.12.29 22:32:19.725     Maximum reflections before first diffraction: 3
+2019.12.29 22:32:19.725     Maximum reflections between two diffractions: 0
+2019.12.29 22:32:19.725     Maximum reflections after last diffraction: 3
+2019.12.29 22:32:19.725   Detected 2 GPU devices.
+2019.12.29 22:32:19.730   Licensed 1 GPU devices.
+2019.12.29 22:32:19.730   Running on 1 GPU devices.
+2019.12.29 22:32:19.730     Device ID's: [ 0 ]
+2019.12.29 22:32:19.923   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:32:21.298   Beginning next round of queued diffractions
+
+2019.12.29 22:32:28.198   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:32:31.227   GPU ray tracing (39875/65536 active): 10% complete
+2019.12.29 22:32:32.533   Total Number of Rays shot: 52559872
+2019.12.29 22:32:32.533   Total Number of active rays shot: 41368409
+2019.12.29 22:32:32.533   Total Initial Rays shot: 663228
+2019.12.29 22:32:32.533   34568 unique paths found.
+
+2019.12.29 22:32:32.533   Calculating E-fields and generating output
+
+2019.12.29 22:32:32.537     ============ ATMOSPHERE ============
+
+2019.12.29 22:32:32.537     Frequency = 1.6e+09
+2019.12.29 22:32:32.537     Attenuation (db/km) = 0.00608359
+2019.12.29 22:32:33.715      Paths    Channels  Database
+2019.12.29 22:32:33.715      100.00%   100.00%    75.00%
+2019.12.29 22:32:33.715      100.00%   100.00%   100.00%
+2019.12.29 22:32:34.187     Original interaction chains:         34568
+2019.12.29 22:32:34.187     Interaction chains eliminated:       21049
+2019.12.29 22:32:34.187     Physical paths generated:            13519
+2019.12.29 22:32:34.187     High power paths retained:           13519
+2019.12.29 22:32:34.187     Low power paths eliminated:              0
+
+
+2019.12.29 22:32:34.253 Starting X3D ray tracing for Tx set 5, point 1 (point 4 of 11 total)
+2019.12.29 22:32:34.259   Diffraction cone ray angle = 0.25
+2019.12.29 22:32:34.259   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:32:34.271   Ray tracing ranges: 
+2019.12.29 22:32:34.271     Minimum phi: 0
+2019.12.29 22:32:34.271     Maximum phi: 360
+2019.12.29 22:32:34.271     Minimum theta: 0
+2019.12.29 22:32:34.271     Maximum theta: 180
+2019.12.29 22:32:34.271   Model parameters: 
+2019.12.29 22:32:34.271     Reflections:         6
+2019.12.29 22:32:34.271     Transmissions:       0
+2019.12.29 22:32:34.271     Diffractions:        1
+2019.12.29 22:32:34.271     Ray spacing (degrees): 0.25
+
+2019.12.29 22:32:34.272   Advanced model parameters:
+2019.12.29 22:32:34.272     Maximum reflections before first diffraction: 3
+2019.12.29 22:32:34.272     Maximum reflections between two diffractions: 0
+2019.12.29 22:32:34.272     Maximum reflections after last diffraction: 3
+2019.12.29 22:32:34.272   Detected 2 GPU devices.
+2019.12.29 22:32:34.277   Licensed 1 GPU devices.
+2019.12.29 22:32:34.277   Running on 1 GPU devices.
+2019.12.29 22:32:34.277     Device ID's: [ 0 ]
+2019.12.29 22:32:34.472   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:32:35.813   Beginning next round of queued diffractions
+
+2019.12.29 22:32:42.625   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:32:45.526   GPU ray tracing (34883/65536 active): 10% complete
+2019.12.29 22:32:46.770   Total Number of Rays shot: 51904512
+2019.12.29 22:32:46.770   Total Number of active rays shot: 41368409
+2019.12.29 22:32:46.770   Total Initial Rays shot: 663228
+2019.12.29 22:32:46.770   34568 unique paths found.
+
+2019.12.29 22:32:46.770   Calculating E-fields and generating output
+
+2019.12.29 22:32:46.773     ============ ATMOSPHERE ============
+
+2019.12.29 22:32:46.773     Frequency = 1.7e+09
+2019.12.29 22:32:46.773     Attenuation (db/km) = 0.00618899
+2019.12.29 22:32:47.990      Paths    Channels  Database
+2019.12.29 22:32:47.991      100.00%   100.00%    75.00%
+2019.12.29 22:32:47.991      100.00%   100.00%   100.00%
+2019.12.29 22:32:48.709     Original interaction chains:         34568
+2019.12.29 22:32:48.709     Interaction chains eliminated:       21049
+2019.12.29 22:32:48.709     Physical paths generated:            13519
+2019.12.29 22:32:48.709     High power paths retained:           13519
+2019.12.29 22:32:48.709     Low power paths eliminated:              0
+
+
+2019.12.29 22:32:48.768 Starting X3D ray tracing for Tx set 6, point 1 (point 5 of 11 total)
+2019.12.29 22:32:48.774   Diffraction cone ray angle = 0.25
+2019.12.29 22:32:48.774   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:32:48.785   Ray tracing ranges: 
+2019.12.29 22:32:48.785     Minimum phi: 0
+2019.12.29 22:32:48.785     Maximum phi: 360
+2019.12.29 22:32:48.785     Minimum theta: 0
+2019.12.29 22:32:48.785     Maximum theta: 180
+2019.12.29 22:32:48.785   Model parameters: 
+2019.12.29 22:32:48.786     Reflections:         6
+2019.12.29 22:32:48.786     Transmissions:       0
+2019.12.29 22:32:48.786     Diffractions:        1
+2019.12.29 22:32:48.786     Ray spacing (degrees): 0.25
+
+2019.12.29 22:32:48.786   Advanced model parameters:
+2019.12.29 22:32:48.786     Maximum reflections before first diffraction: 3
+2019.12.29 22:32:48.786     Maximum reflections between two diffractions: 0
+2019.12.29 22:32:48.786     Maximum reflections after last diffraction: 3
+2019.12.29 22:32:48.786   Detected 2 GPU devices.
+2019.12.29 22:32:48.792   Licensed 1 GPU devices.
+2019.12.29 22:32:48.792   Running on 1 GPU devices.
+2019.12.29 22:32:48.792     Device ID's: [ 0 ]
+2019.12.29 22:32:48.978   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:32:50.301   Beginning next round of queued diffractions
+
+2019.12.29 22:32:57.210   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:33:00.217   GPU ray tracing (39613/65536 active): 10% complete
+2019.12.29 22:33:01.510   Total Number of Rays shot: 52101120
+2019.12.29 22:33:01.510   Total Number of active rays shot: 41368409
+2019.12.29 22:33:01.510   Total Initial Rays shot: 663228
+2019.12.29 22:33:01.510   34568 unique paths found.
+
+2019.12.29 22:33:01.511   Calculating E-fields and generating output
+
+2019.12.29 22:33:01.515     ============ ATMOSPHERE ============
+
+2019.12.29 22:33:01.515     Frequency = 1.8e+09
+2019.12.29 22:33:01.515     Attenuation (db/km) = 0.00628512
+2019.12.29 22:33:02.718      Paths    Channels  Database
+2019.12.29 22:33:02.718      100.00%   100.00%    25.00%
+2019.12.29 22:33:02.834      100.00%   100.00%   100.00%
+2019.12.29 22:33:03.828     Original interaction chains:         34568
+2019.12.29 22:33:03.828     Interaction chains eliminated:       21049
+2019.12.29 22:33:03.828     Physical paths generated:            13519
+2019.12.29 22:33:03.829     High power paths retained:           13519
+2019.12.29 22:33:03.829     Low power paths eliminated:              0
+
+
+2019.12.29 22:33:03.887 Starting X3D ray tracing for Tx set 7, point 1 (point 6 of 11 total)
+2019.12.29 22:33:03.892   Diffraction cone ray angle = 0.25
+2019.12.29 22:33:03.892   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:33:03.904   Ray tracing ranges: 
+2019.12.29 22:33:03.904     Minimum phi: 0
+2019.12.29 22:33:03.904     Maximum phi: 360
+2019.12.29 22:33:03.904     Minimum theta: 0
+2019.12.29 22:33:03.904     Maximum theta: 180
+2019.12.29 22:33:03.904   Model parameters: 
+2019.12.29 22:33:03.904     Reflections:         6
+2019.12.29 22:33:03.904     Transmissions:       0
+2019.12.29 22:33:03.904     Diffractions:        1
+2019.12.29 22:33:03.904     Ray spacing (degrees): 0.25
+
+2019.12.29 22:33:03.904   Advanced model parameters:
+2019.12.29 22:33:03.905     Maximum reflections before first diffraction: 3
+2019.12.29 22:33:03.905     Maximum reflections between two diffractions: 0
+2019.12.29 22:33:03.905     Maximum reflections after last diffraction: 3
+2019.12.29 22:33:03.905   Detected 2 GPU devices.
+2019.12.29 22:33:03.910   Licensed 1 GPU devices.
+2019.12.29 22:33:03.910   Running on 1 GPU devices.
+2019.12.29 22:33:03.910     Device ID's: [ 0 ]
+2019.12.29 22:33:04.097   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:33:05.426   Beginning next round of queued diffractions
+
+2019.12.29 22:33:12.353   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:33:15.358   GPU ray tracing (39668/65536 active): 10% complete
+2019.12.29 22:33:16.693   Total Number of Rays shot: 52232192
+2019.12.29 22:33:16.693   Total Number of active rays shot: 41368409
+2019.12.29 22:33:16.693   Total Initial Rays shot: 663228
+2019.12.29 22:33:16.693   34568 unique paths found.
+
+2019.12.29 22:33:16.693   Calculating E-fields and generating output
+
+2019.12.29 22:33:16.698     ============ ATMOSPHERE ============
+
+2019.12.29 22:33:16.698     Frequency = 1.9e+09
+2019.12.29 22:33:16.698     Attenuation (db/km) = 0.00637391
+2019.12.29 22:33:17.791      Paths    Channels  Database
+2019.12.29 22:33:17.791      100.00%   100.00%    81.25%
+2019.12.29 22:33:17.791      100.00%   100.00%   100.00%
+2019.12.29 22:33:19.045     Original interaction chains:         34568
+2019.12.29 22:33:19.045     Interaction chains eliminated:       21049
+2019.12.29 22:33:19.045     Physical paths generated:            13519
+2019.12.29 22:33:19.045     High power paths retained:           13519
+2019.12.29 22:33:19.045     Low power paths eliminated:              0
+
+
+2019.12.29 22:33:19.100 Starting X3D ray tracing for Tx set 8, point 1 (point 7 of 11 total)
+2019.12.29 22:33:19.105   Diffraction cone ray angle = 0.25
+2019.12.29 22:33:19.105   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:33:19.117   Ray tracing ranges: 
+2019.12.29 22:33:19.117     Minimum phi: 0
+2019.12.29 22:33:19.117     Maximum phi: 360
+2019.12.29 22:33:19.117     Minimum theta: 0
+2019.12.29 22:33:19.117     Maximum theta: 180
+2019.12.29 22:33:19.117   Model parameters: 
+2019.12.29 22:33:19.117     Reflections:         6
+2019.12.29 22:33:19.117     Transmissions:       0
+2019.12.29 22:33:19.117     Diffractions:        1
+2019.12.29 22:33:19.117     Ray spacing (degrees): 0.25
+
+2019.12.29 22:33:19.118   Advanced model parameters:
+2019.12.29 22:33:19.118     Maximum reflections before first diffraction: 3
+2019.12.29 22:33:19.118     Maximum reflections between two diffractions: 0
+2019.12.29 22:33:19.118     Maximum reflections after last diffraction: 3
+2019.12.29 22:33:19.118   Detected 2 GPU devices.
+2019.12.29 22:33:19.123   Licensed 1 GPU devices.
+2019.12.29 22:33:19.123   Running on 1 GPU devices.
+2019.12.29 22:33:19.123     Device ID's: [ 0 ]
+2019.12.29 22:33:19.308   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:33:20.682   Beginning next round of queued diffractions
+
+2019.12.29 22:33:27.664   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:33:30.696   GPU ray tracing (40724/65536 active): 10% complete
+2019.12.29 22:33:31.951   Total Number of Rays shot: 51773440
+2019.12.29 22:33:31.951   Total Number of active rays shot: 41368409
+2019.12.29 22:33:31.951   Total Initial Rays shot: 663228
+2019.12.29 22:33:31.951   34568 unique paths found.
+
+2019.12.29 22:33:31.951   Calculating E-fields and generating output
+
+2019.12.29 22:33:31.955     ============ ATMOSPHERE ============
+
+2019.12.29 22:33:31.955     Frequency = 2e+09
+2019.12.29 22:33:31.955     Attenuation (db/km) = 0.00645689
+2019.12.29 22:33:33.152      Paths    Channels  Database
+2019.12.29 22:33:33.152      100.00%   100.00%    56.25%
+2019.12.29 22:33:33.152      100.00%   100.00%   100.00%
+2019.12.29 22:33:34.651     Original interaction chains:         34568
+2019.12.29 22:33:34.651     Interaction chains eliminated:       21049
+2019.12.29 22:33:34.651     Physical paths generated:            13519
+2019.12.29 22:33:34.651     High power paths retained:           13519
+2019.12.29 22:33:34.651     Low power paths eliminated:              0
+
+
+2019.12.29 22:33:34.746 Starting X3D ray tracing for Tx set 9, point 1 (point 8 of 11 total)
+2019.12.29 22:33:34.751   Diffraction cone ray angle = 0.25
+2019.12.29 22:33:34.751   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:33:34.762   Ray tracing ranges: 
+2019.12.29 22:33:34.762     Minimum phi: 0
+2019.12.29 22:33:34.762     Maximum phi: 360
+2019.12.29 22:33:34.762     Minimum theta: 0
+2019.12.29 22:33:34.762     Maximum theta: 180
+2019.12.29 22:33:34.762   Model parameters: 
+2019.12.29 22:33:34.762     Reflections:         6
+2019.12.29 22:33:34.762     Transmissions:       0
+2019.12.29 22:33:34.762     Diffractions:        1
+2019.12.29 22:33:34.762     Ray spacing (degrees): 0.25
+
+2019.12.29 22:33:34.763   Advanced model parameters:
+2019.12.29 22:33:34.763     Maximum reflections before first diffraction: 3
+2019.12.29 22:33:34.763     Maximum reflections between two diffractions: 0
+2019.12.29 22:33:34.763     Maximum reflections after last diffraction: 3
+2019.12.29 22:33:34.763   Detected 2 GPU devices.
+2019.12.29 22:33:34.769   Licensed 1 GPU devices.
+2019.12.29 22:33:34.769   Running on 1 GPU devices.
+2019.12.29 22:33:34.769     Device ID's: [ 0 ]
+2019.12.29 22:33:34.959   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:33:36.327   Beginning next round of queued diffractions
+
+2019.12.29 22:33:43.308   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:33:46.401   GPU ray tracing (32325/65536 active): 11% complete
+2019.12.29 22:33:47.534   Total Number of Rays shot: 51249152
+2019.12.29 22:33:47.534   Total Number of active rays shot: 41368409
+2019.12.29 22:33:47.534   Total Initial Rays shot: 663228
+2019.12.29 22:33:47.534   34568 unique paths found.
+
+2019.12.29 22:33:47.534   Calculating E-fields and generating output
+
+2019.12.29 22:33:47.538     ============ ATMOSPHERE ============
+
+2019.12.29 22:33:47.538     Frequency = 3.2e+09
+2019.12.29 22:33:47.538     Attenuation (db/km) = 0.00728685
+2019.12.29 22:33:50.275     Original interaction chains:         34568
+2019.12.29 22:33:50.276     Interaction chains eliminated:       21113
+2019.12.29 22:33:50.276     Physical paths generated:            13455
+2019.12.29 22:33:50.276     High power paths retained:           13455
+2019.12.29 22:33:50.276     Low power paths eliminated:              0
+
+
+2019.12.29 22:33:50.362 Starting X3D ray tracing for Tx set 10, point 1 (point 9 of 11 total)
+2019.12.29 22:33:50.366   Diffraction cone ray angle = 0.25
+2019.12.29 22:33:50.366   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:33:50.377   Ray tracing ranges: 
+2019.12.29 22:33:50.378     Minimum phi: 0
+2019.12.29 22:33:50.378     Maximum phi: 360
+2019.12.29 22:33:50.378     Minimum theta: 0
+2019.12.29 22:33:50.378     Maximum theta: 180
+2019.12.29 22:33:50.378   Model parameters: 
+2019.12.29 22:33:50.378     Reflections:         6
+2019.12.29 22:33:50.378     Transmissions:       0
+2019.12.29 22:33:50.378     Diffractions:        1
+2019.12.29 22:33:50.378     Ray spacing (degrees): 0.25
+
+2019.12.29 22:33:50.378   Advanced model parameters:
+2019.12.29 22:33:50.378     Maximum reflections before first diffraction: 3
+2019.12.29 22:33:50.378     Maximum reflections between two diffractions: 0
+2019.12.29 22:33:50.378     Maximum reflections after last diffraction: 3
+2019.12.29 22:33:50.378   Detected 2 GPU devices.
+2019.12.29 22:33:50.384   Licensed 1 GPU devices.
+2019.12.29 22:33:50.384   Running on 1 GPU devices.
+2019.12.29 22:33:50.384     Device ID's: [ 0 ]
+2019.12.29 22:33:50.570   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:33:51.936   Beginning next round of queued diffractions
+
+2019.12.29 22:33:58.933   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:34:01.969   GPU ray tracing (37722/65536 active): 10% complete
+2019.12.29 22:34:03.237   Total Number of Rays shot: 51904512
+2019.12.29 22:34:03.237   Total Number of active rays shot: 41368409
+2019.12.29 22:34:03.237   Total Initial Rays shot: 663228
+2019.12.29 22:34:03.237   34568 unique paths found.
+
+2019.12.29 22:34:03.237   Calculating E-fields and generating output
+
+2019.12.29 22:34:03.240     ============ ATMOSPHERE ============
+
+2019.12.29 22:34:03.240     Frequency = 3.3e+09
+2019.12.29 22:34:03.240     Attenuation (db/km) = 0.00735468
+2019.12.29 22:34:05.181     Original interaction chains:         34568
+2019.12.29 22:34:05.182     Interaction chains eliminated:       21113
+2019.12.29 22:34:05.182     Physical paths generated:            13455
+2019.12.29 22:34:05.182     High power paths retained:           13455
+2019.12.29 22:34:05.182     Low power paths eliminated:              0
+
+
+2019.12.29 22:34:05.253 Starting X3D ray tracing for Tx set 11, point 1 (point 10 of 11 total)
+2019.12.29 22:34:05.257   Diffraction cone ray angle = 0.25
+2019.12.29 22:34:05.257   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:34:05.269   Ray tracing ranges: 
+2019.12.29 22:34:05.269     Minimum phi: 0
+2019.12.29 22:34:05.269     Maximum phi: 360
+2019.12.29 22:34:05.269     Minimum theta: 0
+2019.12.29 22:34:05.269     Maximum theta: 180
+2019.12.29 22:34:05.269   Model parameters: 
+2019.12.29 22:34:05.269     Reflections:         6
+2019.12.29 22:34:05.269     Transmissions:       0
+2019.12.29 22:34:05.269     Diffractions:        1
+2019.12.29 22:34:05.269     Ray spacing (degrees): 0.25
+
+2019.12.29 22:34:05.270   Advanced model parameters:
+2019.12.29 22:34:05.270     Maximum reflections before first diffraction: 3
+2019.12.29 22:34:05.270     Maximum reflections between two diffractions: 0
+2019.12.29 22:34:05.270     Maximum reflections after last diffraction: 3
+2019.12.29 22:34:05.270   Detected 2 GPU devices.
+2019.12.29 22:34:05.275   Licensed 1 GPU devices.
+2019.12.29 22:34:05.276   Running on 1 GPU devices.
+2019.12.29 22:34:05.276     Device ID's: [ 0 ]
+2019.12.29 22:34:05.463   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:34:06.801   Beginning next round of queued diffractions
+
+2019.12.29 22:34:13.775   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:34:16.853   GPU ray tracing (35104/65536 active): 11% complete
+2019.12.29 22:34:18.211   Total Number of Rays shot: 52428800
+2019.12.29 22:34:18.211   Total Number of active rays shot: 41368409
+2019.12.29 22:34:18.211   Total Initial Rays shot: 663228
+2019.12.29 22:34:18.211   34568 unique paths found.
+
+2019.12.29 22:34:18.212   Calculating E-fields and generating output
+
+2019.12.29 22:34:18.217     ============ ATMOSPHERE ============
+
+2019.12.29 22:34:18.217     Frequency = 3.4e+09
+2019.12.29 22:34:18.217     Attenuation (db/km) = 0.00742332
+2019.12.29 22:34:20.436     Original interaction chains:         34568
+2019.12.29 22:34:20.436     Interaction chains eliminated:       21113
+2019.12.29 22:34:20.436     Physical paths generated:            13455
+2019.12.29 22:34:20.436     High power paths retained:           13455
+2019.12.29 22:34:20.436     Low power paths eliminated:              0
+
+
+2019.12.29 22:34:20.495 Starting X3D ray tracing for Tx set 12, point 1 (point 11 of 11 total)
+2019.12.29 22:34:20.500   Diffraction cone ray angle = 0.25
+2019.12.29 22:34:20.500   Using 1 GPU ray tracer (4 CPU threads)
+2019.12.29 22:34:20.511   Ray tracing ranges: 
+2019.12.29 22:34:20.511     Minimum phi: 0
+2019.12.29 22:34:20.511     Maximum phi: 360
+2019.12.29 22:34:20.511     Minimum theta: 0
+2019.12.29 22:34:20.511     Maximum theta: 180
+2019.12.29 22:34:20.511   Model parameters: 
+2019.12.29 22:34:20.511     Reflections:         6
+2019.12.29 22:34:20.511     Transmissions:       0
+2019.12.29 22:34:20.511     Diffractions:        1
+2019.12.29 22:34:20.512     Ray spacing (degrees): 0.25
+
+2019.12.29 22:34:20.512   Advanced model parameters:
+2019.12.29 22:34:20.512     Maximum reflections before first diffraction: 3
+2019.12.29 22:34:20.512     Maximum reflections between two diffractions: 0
+2019.12.29 22:34:20.512     Maximum reflections after last diffraction: 3
+2019.12.29 22:34:20.513   Detected 2 GPU devices.
+2019.12.29 22:34:20.518   Licensed 1 GPU devices.
+2019.12.29 22:34:20.519   Running on 1 GPU devices.
+2019.12.29 22:34:20.519     Device ID's: [ 0 ]
+2019.12.29 22:34:20.709   Optimized concurrent GPU rays: 65536
+
+2019.12.29 22:34:22.109   Beginning next round of queued diffractions
+
+2019.12.29 22:34:29.000   GPU ray tracing (65536/65536 active): 5% complete
+2019.12.29 22:34:31.999   GPU ray tracing (33166/65536 active): 10% complete
+2019.12.29 22:34:33.114   Total Number of Rays shot: 51314688
+2019.12.29 22:34:33.114   Total Number of active rays shot: 41368409
+2019.12.29 22:34:33.114   Total Initial Rays shot: 663228
+2019.12.29 22:34:33.114   34568 unique paths found.
+
+2019.12.29 22:34:33.114   Calculating E-fields and generating output
+
+2019.12.29 22:34:33.118     ============ ATMOSPHERE ============
+
+2019.12.29 22:34:33.118     Frequency = 3.5e+09
+2019.12.29 22:34:33.118     Attenuation (db/km) = 0.00749287
+2019.12.29 22:34:35.465     Original interaction chains:         34568
+2019.12.29 22:34:35.465     Interaction chains eliminated:       21113
+2019.12.29 22:34:35.465     Physical paths generated:            13455
+2019.12.29 22:34:35.465     High power paths retained:           13455
+2019.12.29 22:34:35.465     Low power paths eliminated:              0
+
+2019.12.29 22:34:35.572 Output file location: C:\Users\xyzhang\Desktop\chenghong\base_station\x3d/
+2019.12.29 22:34:35.572 Output prefix: bs_simulation
+
+2019.12.29 22:34:35.613 Sun Dec 29 22:34:35 2019
+
+2019.12.29 22:34:35.613 Writing P2M output files
+2019.12.29 22:34:35.951 Finished writing P2M output files
+
+2019.12.29 22:34:35.951 Geometry Processing Time: : 00:00:00.007
+2019.12.29 22:34:35.951 TxRx Set Generation Time: : 00:00:00.026
+2019.12.29 22:34:35.951 Path Discovery Time: : 00:02:19.996
+2019.12.29 22:34:35.951 Path Generation Time: : 00:00:23.017
+2019.12.29 22:34:35.951 Writing P2M Output Time: : 00:00:00.338
+
+2019.12.29 22:34:35.951 Total Runtime: : 00:02:45.067
